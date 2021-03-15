@@ -1,0 +1,144 @@
+.container{
+    padding:50px 50px;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    margin: 10px auto;
+    box-shadow: 10px 10px 5px #aaaaaac2;
+    outline: black;
+    text-align: center;
+}
+h1{
+    font-weight: 800;
+    font-size: 32px;
+}
+.image, .text {
+    margin: 40px auto;
+    height: 150px;
+    width: 300px;
+}
+
+#image{
+    /* height: 50%; */
+    width: 70%;
+    
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#category-name{
+    font-size: 32px;
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        height:100%
+    }
+    h1{
+        font-size: 0.5rem;
+    }
+    #image{        
+      width:inherit;
+    }
+   
+}
+
+@media (max-width: 576px) {  
+    .xs {color:red;font-weight:bold;}
+  }
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width:768px) {  
+    .sm {color:red;font-weight:bold;}
+  }
+   
+  /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+  @media (min-width: 768px) and (max-width:992px) {  
+   .md {color:red;font-weight:bold;}
+  }
+   
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width:1200px) { 
+   .lg {color:red;font-weight:bold;}
+  }
+   
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {  
+      .xl {color:red;font-weight:bold;}
+  }
+
+/* custom */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {
+        margin-bottom: 15px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  .card-title{
+      margin-bottom:5px;
+  }
+  
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    /* width: 20rem; */
+    margin: 5px 5px;
+ 
+  }
+ 
+  #txtbox{
+      background-color:lavender;
+      overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3; /* number of lines to show */
+        -webkit-box-orient: vertical;
+  }
+ 
+  .flex-container{
+    display:flex;
+    width:80%;
+
+}
+
+.mb-3 input{
+    border:none; /*Get rid of the browser's styling */
+    border-bottom:1px solid blue; /* Add your own border */
+    border-radius:0px;
+    outline:none;
+
+   
+ }
+
+input:focus{
+    outline: none;
+}
+
+ 
+
+.cartImage{
+    width: 3%;
+}

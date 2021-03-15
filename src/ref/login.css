@@ -1,0 +1,32 @@
+.flex-container{
+    display:flex;
+    width:80%;
+
+}
+
+/* .column{
+    width:50%;
+} */
+
+h1{
+    font-weight: 600;
+    font-size: 32px;
+}
+.image, .text {
+    margin: 40px auto;
+    height: 150px;
+    width: 300px;
+}
+
+.mb-3 input{
+    border:none; /*Get rid of the browser's styling */
+    border-bottom:1px solid blue; /* Add your own border */
+    border-radius:0px;
+    outline:none;
+
+   
+ }
+
+input:focus{
+    outline: none;
+}

@@ -1,0 +1,74 @@
+@media (max-width: 576px) {  
+    .xs {color:red;font-weight:bold;}
+  }
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width:768px) {  
+    .sm {color:red;font-weight:bold;}
+  }
+   
+  /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+  @media (min-width: 768px) and (max-width:992px) {  
+   .md {color:red;font-weight:bold;}
+  }
+   
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width:1200px) { 
+   .lg {color:red;font-weight:bold;}
+  }
+   
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {  
+      .xl {color:red;font-weight:bold;}
+  }
+
+/* custom */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {
+        margin-bottom: 15px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  .card-title{
+      margin-bottom:5px;
+  }
+  
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    /* width: 20rem; */
+    margin: 5px 5px;
+ 
+  }
+ 
+  #txtbox{
+      background-color:lavender;
+      overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3; /* number of lines to show */
+        -webkit-box-orient: vertical;
+  }
+ 
+ 
